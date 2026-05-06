@@ -1,0 +1,10 @@
+node_modules/
+package-lock.json
+.DS_Store
+*.log
+*.tmp
+.codex/
+dist/
+coverage/
+skills/*/node_modules/
+skills/*/package-lock.json

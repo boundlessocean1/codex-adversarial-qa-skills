@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Mini Program Adversarial Skill">
+  <rect width="256" height="256" rx="56" fill="#111827"/>
+  <circle cx="86" cy="94" r="42" fill="#22c55e"/>
+  <circle cx="153" cy="122" r="56" fill="#10b981" opacity=".9"/>
+  <circle cx="72" cy="84" r="6" fill="#111827"/>
+  <circle cx="108" cy="84" r="6" fill="#111827"/>
+  <path d="M56 167h144v20H56z" fill="#f9fafb"/>
+  <path d="M78 207h100v14H78z" fill="#f9fafb" opacity=".75"/>
+  <path d="M168 104h10v10h-10zM194 104h10v10h-10z" fill="#111827"/>
+</svg>

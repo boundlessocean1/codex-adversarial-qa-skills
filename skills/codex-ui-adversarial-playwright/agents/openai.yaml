@@ -1,0 +1,7 @@
+interface:
+  display_name: "Codex UI Adversarial Playwright"
+  short_description: "Explore web UIs with Playwright, adversarial checks, screenshots, axe accessibility scans, and reports."
+  brand_color: "#3B82F6"
+  default_prompt: "Use this skill to test the target web UI, find layout, accessibility, console, and interaction issues, then produce a concise report and suggested Playwright Test cases."
+policy:
+  allow_implicit_invocation: true

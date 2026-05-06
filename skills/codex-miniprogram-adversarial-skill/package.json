@@ -1,0 +1,19 @@
+{
+  "name": "codex-miniprogram-adversarial-skill",
+  "version": "0.1.1",
+  "private": true,
+  "description": "Codex skill for WeChat Mini Program exploratory and adversarial UI testing using miniprogram-automator.",
+  "type": "commonjs",
+  "scripts": {
+    "setup": "node scripts/setup.js",
+    "doctor": "node scripts/doctor.js",
+    "audit": "node scripts/run-audit.js"
+  },
+  "dependencies": {
+    "miniprogram-automator": "^0.12.1",
+    "pngjs": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

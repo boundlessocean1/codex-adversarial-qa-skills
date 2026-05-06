@@ -1,0 +1,27 @@
+{
+  "name": "codex-adversarial-qa-skills",
+  "version": "0.1.0",
+  "private": true,
+  "description": "One-click Codex skills for adversarial Web UI and WeChat Mini Program QA.",
+  "type": "commonjs",
+  "scripts": {
+    "install:skills": "node scripts/install.js",
+    "uninstall:skills": "node scripts/uninstall.js",
+    "doctor": "node scripts/doctor.js",
+    "check": "node scripts/check.js",
+    "pack:zip": "node scripts/pack.js"
+  },
+  "keywords": [
+    "codex",
+    "agent-skills",
+    "playwright",
+    "wechat-miniprogram",
+    "ui-testing",
+    "adversarial-testing",
+    "qa-automation"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

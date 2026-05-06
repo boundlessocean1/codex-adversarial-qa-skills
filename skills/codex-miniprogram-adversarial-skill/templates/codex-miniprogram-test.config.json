@@ -1,0 +1,12 @@
+{
+  "projectPath": "/absolute/path/to/miniprogram-project",
+  "routes": "auto",
+  "maxRoutes": 8,
+  "waitMs": 1200,
+  "fuzz": false,
+  "rapidTap": false,
+  "networkChaos": false,
+  "permissionChaos": false,
+  "compareSnapshots": false,
+  "snapshotThreshold": 0.01
+}

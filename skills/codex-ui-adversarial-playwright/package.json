@@ -1,0 +1,29 @@
+{
+  "name": "codex-ui-adversarial-playwright",
+  "version": "0.1.0",
+  "description": "Codex Skill for exploratory UI testing, adversarial UI checks, accessibility scans, screenshots, and Playwright Test handoff.",
+  "main": "run.js",
+  "type": "commonjs",
+  "scripts": {
+    "setup": "node scripts/setup.js",
+    "audit": "node scripts/run-audit.js",
+    "install-browsers": "npx playwright install chromium firefox webkit",
+    "check": "node --check run.js && node --check scripts/run-audit.js && node --check scripts/setup.js && node --check lib/helpers.js && node --check lib/adversarial.js && node --check lib/report.js"
+  },
+  "keywords": [
+    "codex-skill",
+    "playwright",
+    "ui-testing",
+    "adversarial-testing",
+    "accessibility",
+    "visual-regression"
+  ],
+  "dependencies": {
+    "@axe-core/playwright": "^4.10.2",
+    "playwright": "^1.57.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}

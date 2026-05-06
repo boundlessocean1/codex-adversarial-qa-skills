@@ -1,0 +1,6 @@
+name: codex-miniprogram-adversarial-skill
+version: 0.1.0
+description: >-
+  Codex skill for WeChat Mini Program exploratory testing, adversarial UI checks,
+  simulator screenshots, route discovery, WXML accessibility heuristics, wx API
+  chaos mocks, report generation, and formal regression test templates.
